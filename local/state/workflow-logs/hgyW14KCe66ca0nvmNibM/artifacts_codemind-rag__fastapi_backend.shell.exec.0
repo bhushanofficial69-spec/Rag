@@ -1,0 +1,84 @@
+[32mINFO[0m:     Will watch for changes in these directories: ['/home/runner/workspace/artifacts/codemind-rag/backend']
+[32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     Started reloader process [[36m[1m3123[0m] using [36m[1mWatchFiles[0m
+[32mINFO[0m:     Started server process [[36m3135[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-04T19:01:03.124366Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[2m2026-04-04T19:01:08.878422Z[0m [[32m[1minfo     [0m] [1mingest_request_received       [0m [36mbranch[0m=[35mmain[0m [36mrepo_url[0m=[35mhttps://github.com/facebook/react[0m
+[2m2026-04-04T19:01:08.878902Z[0m [[32m[1minfo     [0m] [1mcloning_repo                  [0m [36mjob_id[0m=[35m12b15f0e-cb9f-481c-8d3f-0e8c780eb392[0m [36mrepo_url[0m=[35mhttps://github.com/facebook/react[0m
+[2m2026-04-04T19:01:08.879004Z[0m [[32m[1minfo     [0m] [1mingestion_job_queued          [0m [36mbranch[0m=[35mmain[0m [36mjob_id[0m=[35m12b15f0e-cb9f-481c-8d3f-0e8c780eb392[0m [36mrepo_url[0m=[35mhttps://github.com/facebook/react[0m
+[32mINFO[0m:     127.0.0.1:45538 - "[1mPOST /api/ingest HTTP/1.1[0m" [32m202 Accepted[0m
+[2m2026-04-04T19:01:09.042242Z[0m [[32m[1minfo     [0m] [1mingest_request_received       [0m [36mbranch[0m=[35mmain[0m [36mrepo_url[0m=[35mhttps://github.com/facebook/react[0m
+[2m2026-04-04T19:01:09.042898Z[0m [[32m[1minfo     [0m] [1mcloning_repo                  [0m [36mjob_id[0m=[35m8ee20168-93e1-4d13-808a-4b2687bf75f3[0m [36mrepo_url[0m=[35mhttps://github.com/facebook/react[0m
+[2m2026-04-04T19:01:09.043187Z[0m [[32m[1minfo     [0m] [1mingestion_job_queued          [0m [36mbranch[0m=[35mmain[0m [36mjob_id[0m=[35m8ee20168-93e1-4d13-808a-4b2687bf75f3[0m [36mrepo_url[0m=[35mhttps://github.com/facebook/react[0m
+[32mINFO[0m:     127.0.0.1:45548 - "[1mPOST /api/ingest HTTP/1.1[0m" [32m202 Accepted[0m
+[2m2026-04-04T19:01:11.561539Z[0m [[32m[1minfo     [0m] [1mrepo_cloned_successfully      [0m [36mbranch[0m=[35mmain[0m [36mdest[0m=[35mtemp/12b15f0e-cb9f-481c-8d3f-0e8c780eb392[0m [36mrepo_url[0m=[35mhttps://github.com/facebook/react[0m
+[2m2026-04-04T19:01:11.561688Z[0m [[32m[1minfo     [0m] [1mfiltering_files               [0m [36mjob_id[0m=[35m12b15f0e-cb9f-481c-8d3f-0e8c780eb392[0m
+[2m2026-04-04T19:01:11.561915Z[0m [[32m[1minfo     [0m] [1mfiltered_excluded_directories [0m [36mexcluded[0m=[35m['.git'][0m [36mpath[0m=[35m.[0m
+[2m2026-04-04T19:01:11.661431Z[0m [[32m[1minfo     [0m] [1mfile_filter_complete          [0m [36mskipped_too_large[0m=[35m30[0m [36mskipped_wrong_ext[0m=[35m2513[0m [36mtotal_code_files[0m=[35m4336[0m
+[2m2026-04-04T19:01:11.661575Z[0m [[32m[1minfo     [0m] [1mfiles_found                   [0m [36mcount[0m=[35m4336[0m [36mjob_id[0m=[35m12b15f0e-cb9f-481c-8d3f-0e8c780eb392[0m [36mrepo_url[0m=[35mhttps://github.com/facebook/react[0m
+[2m2026-04-04T19:01:11.740849Z[0m [[32m[1minfo     [0m] [1mrepo_cloned_successfully      [0m [36mbranch[0m=[35mmain[0m [36mdest[0m=[35mtemp/8ee20168-93e1-4d13-808a-4b2687bf75f3[0m [36mrepo_url[0m=[35mhttps://github.com/facebook/react[0m
+[2m2026-04-04T19:01:11.741200Z[0m [[32m[1minfo     [0m] [1mfiltering_files               [0m [36mjob_id[0m=[35m8ee20168-93e1-4d13-808a-4b2687bf75f3[0m
+[2m2026-04-04T19:01:11.741842Z[0m [[32m[1minfo     [0m] [1mfiltered_excluded_directories [0m [36mexcluded[0m=[35m['.git'][0m [36mpath[0m=[35m.[0m
+[2m2026-04-04T19:01:12.107038Z[0m [[32m[1minfo     [0m] [1mingestion_complete            [0m [36mfiles[0m=[35m4336[0m [36mjob_id[0m=[35m12b15f0e-cb9f-481c-8d3f-0e8c780eb392[0m
+[2m2026-04-04T19:01:12.111854Z[0m [[32m[1minfo     [0m] [1mfile_filter_complete          [0m [36mskipped_too_large[0m=[35m30[0m [36mskipped_wrong_ext[0m=[35m2513[0m [36mtotal_code_files[0m=[35m4336[0m
+[2m2026-04-04T19:01:12.112030Z[0m [[32m[1minfo     [0m] [1mfiles_found                   [0m [36mcount[0m=[35m4336[0m [36mjob_id[0m=[35m8ee20168-93e1-4d13-808a-4b2687bf75f3[0m [36mrepo_url[0m=[35mhttps://github.com/facebook/react[0m
+[2m2026-04-04T19:01:12.429841Z[0m [[32m[1minfo     [0m] [1mingestion_complete            [0m [36mfiles[0m=[35m4336[0m [36mjob_id[0m=[35m8ee20168-93e1-4d13-808a-4b2687bf75f3[0m
+[33mWARNING[0m:  WatchFiles detected changes in 'models/schemas.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-04T19:03:24.273558Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3135[0m]
+[32mINFO[0m:     Started server process [[36m3724[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-04T19:03:25.157621Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'services/chunking.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-04T19:03:49.821881Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3724[0m]
+[32mINFO[0m:     Started server process [[36m3779[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-04T19:03:50.591199Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'services/language_parser.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-04T19:03:57.410641Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3779[0m]
+[33mWARNING[0m:  WatchFiles detected changes in 'tests/__init__.py'. Reloading...
+[32mINFO[0m:     Started server process [[36m3824[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-04T19:03:58.526193Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'services/ingestion.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-04T19:04:17.673799Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3824[0m]
+[32mINFO[0m:     Started server process [[36m3833[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-04T19:04:18.907269Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'tests/test_chunking.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-04T19:04:35.849543Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3833[0m]
+[32mINFO[0m:     Started server process [[36m3844[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-04T19:04:36.736045Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-04T19:04:41.247681Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3844[0m]
+[32mINFO[0m:     Stopping reloader process [[36m[1m3123[0m]

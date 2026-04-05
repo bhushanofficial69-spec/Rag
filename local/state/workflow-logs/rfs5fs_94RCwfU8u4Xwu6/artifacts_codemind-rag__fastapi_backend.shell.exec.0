@@ -1,0 +1,19 @@
+[32mINFO[0m:     Will watch for changes in these directories: ['/home/runner/workspace/artifacts/codemind-rag/backend']
+[32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     Started reloader process [[36m[1m3876[0m] using [36m[1mWatchFiles[0m
+[32mINFO[0m:     Started server process [[36m3888[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-04T19:04:42.402911Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[2m2026-04-04T19:04:56.640416Z[0m [[32m[1minfo     [0m] [1mingest_request_received       [0m [36mbranch[0m=[35mmain[0m [36mrepo_url[0m=[35mhttps://github.com/python-requests/requests[0m
+[2m2026-04-04T19:04:56.640927Z[0m [[32m[1minfo     [0m] [1mcloning_repo                  [0m [36mjob_id[0m=[35m346d4eca-9a09-44ce-9d1e-6273736df777[0m [36mrepo_url[0m=[35mhttps://github.com/python-requests/requests[0m
+[2m2026-04-04T19:04:56.641141Z[0m [[32m[1minfo     [0m] [1mingestion_job_queued          [0m [36mbranch[0m=[35mmain[0m [36mjob_id[0m=[35m346d4eca-9a09-44ce-9d1e-6273736df777[0m [36mrepo_url[0m=[35mhttps://github.com/python-requests/requests[0m
+[32mINFO[0m:     127.0.0.1:49514 - "[1mPOST /api/ingest HTTP/1.1[0m" [32m202 Accepted[0m
+Username for 'https://github.com': [32mINFO[0m:     127.0.0.1:39090 - "[1mGET /api/ingest/status/346d4eca-9a09-44ce-9d1e-6273736df777 HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:42392 - "[1mGET /api/ingest/status/346d4eca-9a09-44ce-9d1e-6273736df777 HTTP/1.1[0m" [32m200 OK[0m
+[33mWARNING[0m:  WatchFiles detected changes in 'services/repo_cloner.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-04T19:05:52.868342Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3888[0m]

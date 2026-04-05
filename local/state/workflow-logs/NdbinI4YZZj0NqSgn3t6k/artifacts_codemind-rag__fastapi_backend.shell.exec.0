@@ -1,0 +1,169 @@
+[32mINFO[0m:     Will watch for changes in these directories: ['/home/runner/workspace/artifacts/codemind-rag/backend']
+[32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     Started reloader process [[36m[1m107[0m] using [36m[1mWatchFiles[0m
+[32mINFO[0m:     Started server process [[36m222[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:23:13.157434Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'models/vector_schemas.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:29:23.752369Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m222[0m]
+[32mINFO[0m:     Started server process [[36m702[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:29:24.744188Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'services/vector_db.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:29:40.889369Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m702[0m]
+[32mINFO[0m:     Started server process [[36m730[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:29:41.713872Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'config.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:29:44.122952Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m730[0m]
+[32mINFO[0m:     Started server process [[36m741[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:29:44.893794Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'models/schemas.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:29:50.711511Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m741[0m]
+[32mINFO[0m:     Started server process [[36m748[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:29:51.524290Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'services/ingestion.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:30:36.738905Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m748[0m]
+Process SpawnProcess-6:
+Traceback (most recent call last):
+  File "/nix/store/6334pjf6w2q623rgvwi499qaiym1p6yv-python3-3.11.14/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/nix/store/6334pjf6w2q623rgvwi499qaiym1p6yv-python3-3.11.14/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/uvicorn/_subprocess.py", line 76, in subprocess_started
+    target(sockets=sockets)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/6334pjf6w2q623rgvwi499qaiym1p6yv-python3-3.11.14/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/nix/store/6334pjf6w2q623rgvwi499qaiym1p6yv-python3-3.11.14/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/uvicorn/server.py", line 68, in serve
+    config.load()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/uvicorn/config.py", line 467, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/uvicorn/importer.py", line 21, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/6334pjf6w2q623rgvwi499qaiym1p6yv-python3-3.11.14/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/runner/workspace/artifacts/codemind-rag/backend/main.py", line 6, in <module>
+    from routers import health, ingest, query
+  File "/home/runner/workspace/artifacts/codemind-rag/backend/routers/ingest.py", line 5, in <module>
+    from services.ingestion import ingestion_service
+ImportError: cannot import name 'ingestion_service' from 'services.ingestion' (/home/runner/workspace/artifacts/codemind-rag/backend/services/ingestion.py)
+[33mWARNING[0m:  WatchFiles detected changes in 'routers/health.py'. Reloading...
+Process SpawnProcess-7:
+Traceback (most recent call last):
+  File "/nix/store/6334pjf6w2q623rgvwi499qaiym1p6yv-python3-3.11.14/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/nix/store/6334pjf6w2q623rgvwi499qaiym1p6yv-python3-3.11.14/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/uvicorn/_subprocess.py", line 76, in subprocess_started
+    target(sockets=sockets)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/6334pjf6w2q623rgvwi499qaiym1p6yv-python3-3.11.14/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/nix/store/6334pjf6w2q623rgvwi499qaiym1p6yv-python3-3.11.14/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/uvicorn/server.py", line 68, in serve
+    config.load()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/uvicorn/config.py", line 467, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/uvicorn/importer.py", line 21, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/6334pjf6w2q623rgvwi499qaiym1p6yv-python3-3.11.14/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/runner/workspace/artifacts/codemind-rag/backend/main.py", line 6, in <module>
+    from routers import health, ingest, query
+  File "/home/runner/workspace/artifacts/codemind-rag/backend/routers/ingest.py", line 5, in <module>
+    from services.ingestion import ingestion_service
+ImportError: cannot import name 'ingestion_service' from 'services.ingestion' (/home/runner/workspace/artifacts/codemind-rag/backend/services/ingestion.py)
+[33mWARNING[0m:  WatchFiles detected changes in 'routers/ingest.py'. Reloading...
+[32mINFO[0m:     Started server process [[36m794[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:30:46.819560Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'main.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:30:55.043901Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m794[0m]
+[32mINFO[0m:     Started server process [[36m799[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:30:55.650745Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.2.0[0m
+[2m2026-04-05T08:30:55.650814Z[0m [[33m[1mwarning  [0m] [1mqdrant_not_configured         [0m [36mhint[0m=[35mSet QDRANT_URL and QDRANT_API_KEY env vars to enable vector storage[0m
+[2m2026-04-05T08:30:55.772861Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36mqdrant[0m=[35mnot_configured[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'tests/test_vector_db.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:31:10.512030Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m799[0m]
+[32mINFO[0m:     Started server process [[36m810[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:31:11.156599Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.2.0[0m
+[2m2026-04-05T08:31:11.156665Z[0m [[33m[1mwarning  [0m] [1mqdrant_not_configured         [0m [36mhint[0m=[35mSet QDRANT_URL and QDRANT_API_KEY env vars to enable vector storage[0m
+[2m2026-04-05T08:31:11.282954Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36mqdrant[0m=[35mnot_configured[0m
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:31:20.408268Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m810[0m]
+[32mINFO[0m:     Stopping reloader process [[36m[1m107[0m]

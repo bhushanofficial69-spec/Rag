@@ -1,0 +1,30 @@
+[32mINFO[0m:     Will watch for changes in these directories: ['/home/runner/workspace/artifacts/codemind-rag/backend']
+[32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     Started reloader process [[36m[1m4093[0m] using [36m[1mWatchFiles[0m
+[32mINFO[0m:     Started server process [[36m4105[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-04T19:06:02.275443Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[2m2026-04-04T19:06:12.905657Z[0m [[32m[1minfo     [0m] [1mingest_request_received       [0m [36mbranch[0m=[35mmain[0m [36mrepo_url[0m=[35mhttps://github.com/python-requests/requests[0m
+[2m2026-04-04T19:06:12.906177Z[0m [[32m[1minfo     [0m] [1mcloning_repo                  [0m [36mjob_id[0m=[35ma830d53c-120f-4783-ad4c-c4fa38e24caa[0m [36mrepo_url[0m=[35mhttps://github.com/python-requests/requests[0m
+[2m2026-04-04T19:06:12.906310Z[0m [[32m[1minfo     [0m] [1mingestion_job_queued          [0m [36mbranch[0m=[35mmain[0m [36mjob_id[0m=[35ma830d53c-120f-4783-ad4c-c4fa38e24caa[0m [36mrepo_url[0m=[35mhttps://github.com/python-requests/requests[0m
+[32mINFO[0m:     127.0.0.1:57732 - "[1mPOST /api/ingest HTTP/1.1[0m" [32m202 Accepted[0m
+[2m2026-04-04T19:06:13.112209Z[0m [[31m[1merror    [0m] [1mingestion_failed              [0m [36merror[0m=[35mAccess denied to repository: https://github.com/python-requests/requests. Set GITHUB_TOKEN for private repos.[0m [36mjob_id[0m=[35ma830d53c-120f-4783-ad4c-c4fa38e24caa[0m
+[32mINFO[0m:     127.0.0.1:36344 - "[1mGET /api/ingest/status/a830d53c-120f-4783-ad4c-c4fa38e24caa HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     127.0.0.1:36350 - "[1mGET /api/ingest/status/a830d53c-120f-4783-ad4c-c4fa38e24caa HTTP/1.1[0m" [32m200 OK[0m
+[33mWARNING[0m:  WatchFiles detected changes in 'services/repo_cloner.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-04T19:07:20.659904Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m4105[0m]
+[32mINFO[0m:     Started server process [[36m4350[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-04T19:07:21.558199Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.1.0[0m
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-04T19:07:24.266039Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m4350[0m]
+[32mINFO[0m:     Stopping reloader process [[36m[1m4093[0m]

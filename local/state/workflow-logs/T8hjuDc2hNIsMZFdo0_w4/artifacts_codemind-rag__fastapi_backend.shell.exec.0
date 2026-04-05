@@ -1,0 +1,243 @@
+[32mINFO[0m:     Will watch for changes in these directories: ['/home/runner/workspace/artifacts/codemind-rag/backend']
+[32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     Started reloader process [[36m[1m3872[0m] using [36m[1mWatchFiles[0m
+[32mINFO[0m:     Started server process [[36m3884[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:41:41.827396Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:41:42.637934Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:41:42.638129Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:41:42.638754Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:41:42.764281Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     127.0.0.1:49336 - "[1mGET /api/health HTTP/1.1[0m" [32m200 OK[0m
+[33mWARNING[0m:  WatchFiles detected changes in 'services/embeddings.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:42:18.558306Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3884[0m]
+[33mWARNING[0m:  WatchFiles detected changes in 'services/embeddings.py'. Reloading...
+[32mINFO[0m:     Started server process [[36m3984[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:42:19.785533Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:42:20.571848Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:42:20.572060Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:42:20.575174Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:42:20.686621Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'tests/test_vector_db.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:42:24.299476Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3984[0m]
+[32mINFO[0m:     Started server process [[36m3996[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:42:25.117814Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:42:25.913380Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:42:25.913550Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:42:25.914052Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:42:26.019617Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'tests/test_vector_db.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:42:26.522026Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3996[0m]
+[32mINFO[0m:     Started server process [[36m4008[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:42:27.402818Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:42:28.239625Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:42:28.239845Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:42:28.240426Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:42:28.351087Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[2m2026-04-05T08:42:43.885597Z[0m [[32m[1minfo     [0m] [1mingest_request_received       [0m [36mbranch[0m=[35mmain[0m [36mrepo_url[0m=[35mhttps://github.com/psf/requests[0m
+[2m2026-04-05T08:42:43.886358Z[0m [[32m[1minfo     [0m] [1mcloning_repo                  [0m [36mjob_id[0m=[35m9e6b743b-b66e-43e3-b702-f50eaf03d34f[0m [36mrepo_url[0m=[35mhttps://github.com/psf/requests[0m
+[2m2026-04-05T08:42:43.886506Z[0m [[32m[1minfo     [0m] [1mingestion_job_queued          [0m [36mbranch[0m=[35mmain[0m [36mjob_id[0m=[35m9e6b743b-b66e-43e3-b702-f50eaf03d34f[0m [36mrepo_url[0m=[35mhttps://github.com/psf/requests[0m
+[32mINFO[0m:     127.0.0.1:58438 - "[1mPOST /api/ingest HTTP/1.1[0m" [32m202 Accepted[0m
+[2m2026-04-05T08:42:44.444642Z[0m [[32m[1minfo     [0m] [1mrepo_cloned_successfully      [0m [36mbranch[0m=[35mmain[0m [36mdest[0m=[35mtemp/9e6b743b-b66e-43e3-b702-f50eaf03d34f[0m [36mrepo_url[0m=[35mhttps://github.com/psf/requests[0m
+[2m2026-04-05T08:42:44.444763Z[0m [[32m[1minfo     [0m] [1mfiltering_files               [0m [36mjob_id[0m=[35m9e6b743b-b66e-43e3-b702-f50eaf03d34f[0m
+[2m2026-04-05T08:42:44.444959Z[0m [[32m[1minfo     [0m] [1mfiltered_excluded_directories [0m [36mexcluded[0m=[35m['.git'][0m [36mpath[0m=[35m.[0m
+[2m2026-04-05T08:42:44.447459Z[0m [[32m[1minfo     [0m] [1mfile_filter_complete          [0m [36mskipped_too_large[0m=[35m1[0m [36mskipped_wrong_ext[0m=[35m95[0m [36mtotal_code_files[0m=[35m35[0m
+[2m2026-04-05T08:42:44.447523Z[0m [[32m[1minfo     [0m] [1mfiles_found                   [0m [36mcount[0m=[35m35[0m [36mjob_id[0m=[35m9e6b743b-b66e-43e3-b702-f50eaf03d34f[0m
+[33mWARNING[0m:  WatchFiles detected changes in 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/testserver/server.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/cookies.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/__init__.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_requests.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/adapters.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/hooks.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/utils.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/api.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/setup.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/help.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/status_codes.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/compat.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_lowlevel.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_testserver.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/auth.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/docs/conf.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_utils.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/exceptions.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/utils.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/conftest.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/compat.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/structures.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_help.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/certs.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_adapters.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/__init__.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_structures.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/packages.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_hooks.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/models.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/docs/_themes/flask_theme_support.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/sessions.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/_internal_utils.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_packages.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/__version__.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[2m2026-04-05T08:42:44.897880Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_exists      [0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:42:44.903060Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:42:44.908210Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:42:44.913417Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:42:44.918458Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:42:44.923495Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:42:44.928581Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:42:44.933710Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:42:44.938751Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:42:44.939069Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m4008[0m]
+[2m2026-04-05T08:42:44.944681Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:42:44.950473Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:42:44.955736Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:42:44.956837Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m2[0m
+[2m2026-04-05T08:42:44.963393Z[0m [[32m[1minfo     [0m] [1mqdrant_upsert_complete        [0m [36mmode[0m=[35min-memory[0m [36mtotal[0m=[35m178[0m
+[2m2026-04-05T08:42:44.963488Z[0m [[32m[1minfo     [0m] [1membed_and_upsert_complete     [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mgenerated[0m=[35m178[0m [36mindexed[0m=[35m178[0m [36mjob_id[0m=[35m9e6b743b-b66e-43e3-b702-f50eaf03d34f[0m
+[2m2026-04-05T08:42:44.963557Z[0m [[32m[1minfo     [0m] [1mingestion_complete            [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mchunks[0m=[35m178[0m [36mfiles[0m=[35m35[0m [36mgenerated[0m=[35m178[0m [36mindexed[0m=[35m178[0m [36mjob_id[0m=[35m9e6b743b-b66e-43e3-b702-f50eaf03d34f[0m
+[33mWARNING[0m:  WatchFiles detected changes in 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/testserver/server.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/cookies.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/__init__.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_requests.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/adapters.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/hooks.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/utils.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/api.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/setup.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/help.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/status_codes.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/compat.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_lowlevel.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_testserver.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/auth.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/docs/conf.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_utils.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/exceptions.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/utils.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/conftest.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/compat.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/structures.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_help.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/certs.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_adapters.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_structures.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/__init__.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/testserver/__init__.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/packages.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_hooks.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/models.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/docs/_themes/flask_theme_support.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/sessions.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/_internal_utils.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/tests/test_packages.py', 'temp/9e6b743b-b66e-43e3-b702-f50eaf03d34f/src/requests/__version__.py'. Reloading...
+[32mINFO[0m:     Started server process [[36m4118[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:42:46.223550Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:42:47.057984Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:42:47.058166Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:42:47.059018Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:42:47.165883Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     127.0.0.1:43862 - "[1mGET /api/ingest/status/9e6b743b-b66e-43e3-b702-f50eaf03d34f HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     127.0.0.1:42802 - "[1mGET /api/ingest/status/9e6b743b-b66e-43e3-b702-f50eaf03d34f HTTP/1.1[0m" [31m404 Not Found[0m
+[2m2026-04-05T08:44:25.775678Z[0m [[32m[1minfo     [0m] [1mingest_request_received       [0m [36mbranch[0m=[35mmain[0m [36mrepo_url[0m=[35mhttps://github.com/psf/requests[0m
+[2m2026-04-05T08:44:25.776150Z[0m [[32m[1minfo     [0m] [1mcloning_repo                  [0m [36mjob_id[0m=[35m63a864d1-30aa-4f24-9e63-bdff592a9749[0m [36mrepo_url[0m=[35mhttps://github.com/psf/requests[0m
+[2m2026-04-05T08:44:25.776444Z[0m [[32m[1minfo     [0m] [1mingestion_job_queued          [0m [36mbranch[0m=[35mmain[0m [36mjob_id[0m=[35m63a864d1-30aa-4f24-9e63-bdff592a9749[0m [36mrepo_url[0m=[35mhttps://github.com/psf/requests[0m
+[32mINFO[0m:     127.0.0.1:42812 - "[1mPOST /api/ingest HTTP/1.1[0m" [32m202 Accepted[0m
+[2m2026-04-05T08:44:26.276708Z[0m [[32m[1minfo     [0m] [1mrepo_cloned_successfully      [0m [36mbranch[0m=[35mmain[0m [36mdest[0m=[35mtemp/63a864d1-30aa-4f24-9e63-bdff592a9749[0m [36mrepo_url[0m=[35mhttps://github.com/psf/requests[0m
+[2m2026-04-05T08:44:26.276835Z[0m [[32m[1minfo     [0m] [1mfiltering_files               [0m [36mjob_id[0m=[35m63a864d1-30aa-4f24-9e63-bdff592a9749[0m
+[2m2026-04-05T08:44:26.277055Z[0m [[32m[1minfo     [0m] [1mfiltered_excluded_directories [0m [36mexcluded[0m=[35m['.git'][0m [36mpath[0m=[35m.[0m
+[2m2026-04-05T08:44:26.279359Z[0m [[32m[1minfo     [0m] [1mfile_filter_complete          [0m [36mskipped_too_large[0m=[35m1[0m [36mskipped_wrong_ext[0m=[35m95[0m [36mtotal_code_files[0m=[35m35[0m
+[2m2026-04-05T08:44:26.279427Z[0m [[32m[1minfo     [0m] [1mfiles_found                   [0m [36mcount[0m=[35m35[0m [36mjob_id[0m=[35m63a864d1-30aa-4f24-9e63-bdff592a9749[0m
+[33mWARNING[0m:  WatchFiles detected changes in 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/testserver/server.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/models.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_help.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/_internal_utils.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/sessions.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/__init__.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_adapters.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/__version__.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_structures.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/cookies.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/hooks.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/utils.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/api.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/help.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/compat.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/auth.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/setup.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/exceptions.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_hooks.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_packages.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/adapters.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/__init__.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_requests.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/structures.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/status_codes.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/certs.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_lowlevel.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/docs/_themes/flask_theme_support.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_testserver.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/docs/conf.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_utils.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/packages.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/utils.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/conftest.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/compat.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:44:26.667931Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m4118[0m]
+[2m2026-04-05T08:44:26.729870Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_exists      [0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:44:26.735425Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:44:26.740742Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:44:26.746164Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:44:26.752143Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:44:26.757272Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:44:26.763883Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:44:26.769056Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:44:26.775062Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:44:26.781798Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:44:26.787326Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:44:26.792861Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m16[0m
+[2m2026-04-05T08:44:26.793644Z[0m [[32m[1minfo     [0m] [1mbatch_embeddings_generated    [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mtotal[0m=[35m2[0m
+[2m2026-04-05T08:44:26.800639Z[0m [[32m[1minfo     [0m] [1mqdrant_upsert_complete        [0m [36mmode[0m=[35min-memory[0m [36mtotal[0m=[35m178[0m
+[2m2026-04-05T08:44:26.800743Z[0m [[32m[1minfo     [0m] [1membed_and_upsert_complete     [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mgenerated[0m=[35m178[0m [36mindexed[0m=[35m178[0m [36mjob_id[0m=[35m63a864d1-30aa-4f24-9e63-bdff592a9749[0m
+[2m2026-04-05T08:44:26.800821Z[0m [[32m[1minfo     [0m] [1mingestion_complete            [0m [36mapi_calls[0m=[35m0[0m [36mcache_hits[0m=[35m0[0m [36mchunks[0m=[35m178[0m [36mfiles[0m=[35m35[0m [36mgenerated[0m=[35m178[0m [36mindexed[0m=[35m178[0m [36mjob_id[0m=[35m63a864d1-30aa-4f24-9e63-bdff592a9749[0m
+[33mWARNING[0m:  WatchFiles detected changes in 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/testserver/server.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/models.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_help.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/_internal_utils.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/sessions.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/__init__.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_adapters.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/__version__.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_structures.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/cookies.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/hooks.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/utils.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/api.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/help.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/compat.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/auth.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/setup.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/exceptions.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_hooks.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_packages.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/adapters.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/__init__.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_requests.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/structures.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/status_codes.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/certs.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_lowlevel.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/docs/_themes/flask_theme_support.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_testserver.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/docs/conf.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/test_utils.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/src/requests/packages.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/testserver/__init__.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/utils.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/conftest.py', 'temp/63a864d1-30aa-4f24-9e63-bdff592a9749/tests/compat.py'. Reloading...
+[32mINFO[0m:     Started server process [[36m4236[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:44:28.047606Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:44:28.844893Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:44:28.845075Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:44:28.845722Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:44:28.956168Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     127.0.0.1:51516 - "[1mGET /api/ingest/status/63a864d1-30aa-4f24-9e63-bdff592a9749 HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     127.0.0.1:55226 - "[1mGET /api/ingest/status/63a864d1-30aa-4f24-9e63-bdff592a9749 HTTP/1.1[0m" [31m404 Not Found[0m
+[33mWARNING[0m:  WatchFiles detected changes in 'services/keyword_index.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:48:12.964056Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m4236[0m]
+[32mINFO[0m:     Started server process [[36m4555[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:48:14.086547Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:48:15.270364Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:48:15.270572Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:48:15.272302Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:48:15.384357Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'models/search_schemas.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:48:17.493066Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m4555[0m]
+[32mINFO[0m:     Started server process [[36m4571[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:48:18.398127Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:48:19.217718Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:48:19.217899Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:48:19.218755Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:48:19.327067Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'services/hybrid_search.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:48:31.962355Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m4571[0m]
+[32mINFO[0m:     Started server process [[36m4614[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:48:32.912797Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:48:33.854316Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:48:33.854492Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:48:33.855007Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:48:33.968575Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'routers/search.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:48:47.404998Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m4614[0m]
+[32mINFO[0m:     Started server process [[36m4727[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:48:48.349708Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:48:49.173948Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:48:49.174119Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:48:49.174675Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:48:49.281800Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'services/ingestion.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:49:27.896202Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m4727[0m]
+[32mINFO[0m:     Started server process [[36m4739[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:49:28.754278Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:49:29.543025Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:49:29.543211Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:49:29.543803Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:49:29.660685Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'main.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:49:38.185991Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m4739[0m]
+[32mINFO[0m:     Started server process [[36m4751[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:49:39.038594Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.4.0[0m
+[2m2026-04-05T08:49:39.845154Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:49:39.845350Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:49:39.845976Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:49:39.953732Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'tests/test_hybrid_search.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:50:04.424409Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m4751[0m]
+[32mINFO[0m:     Started server process [[36m4767[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:50:05.294576Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.4.0[0m
+[2m2026-04-05T08:50:06.102866Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:50:06.103058Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:50:06.104291Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:50:06.223304Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:50:17.876376Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m4767[0m]
+[32mINFO[0m:     Stopping reloader process [[36m[1m3872[0m]

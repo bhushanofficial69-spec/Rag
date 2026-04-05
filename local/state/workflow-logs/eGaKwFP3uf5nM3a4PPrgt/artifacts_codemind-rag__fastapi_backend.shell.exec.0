@@ -1,0 +1,139 @@
+[32mINFO[0m:     Will watch for changes in these directories: ['/home/runner/workspace/artifacts/codemind-rag/backend']
+[32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     Started reloader process [[36m[1m849[0m] using [36m[1mWatchFiles[0m
+[32mINFO[0m:     Started server process [[36m861[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:31:21.322738Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.2.0[0m
+[2m2026-04-05T08:31:21.322801Z[0m [[33m[1mwarning  [0m] [1mqdrant_not_configured         [0m [36mhint[0m=[35mSet QDRANT_URL and QDRANT_API_KEY env vars to enable vector storage[0m
+[2m2026-04-05T08:31:21.449590Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36mqdrant[0m=[35mnot_configured[0m
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     127.0.0.1:32916 - "[1mGET / HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     127.0.0.1:32916 - "[1mGET /favicon.ico HTTP/1.1[0m" [31m404 Not Found[0m
+[32mINFO[0m:     127.0.0.1:40658 - "[1mGET /api/health HTTP/1.1[0m" [32m200 OK[0m
+[33mWARNING[0m:  WatchFiles detected changes in 'utils/hashing.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:38:56.269576Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m861[0m]
+[33mWARNING[0m:  WatchFiles detected changes in 'services/embedding_cache.py'. Reloading...
+[32mINFO[0m:     Started server process [[36m3678[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:38:57.261526Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.2.0[0m
+[2m2026-04-05T08:38:57.261587Z[0m [[33m[1mwarning  [0m] [1mqdrant_not_configured         [0m [36mhint[0m=[35mSet QDRANT_URL and QDRANT_API_KEY env vars to enable vector storage[0m
+[2m2026-04-05T08:38:57.390512Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36mqdrant[0m=[35mnot_configured[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'services/embeddings.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:39:28.268980Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3678[0m]
+[32mINFO[0m:     Started server process [[36m3712[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:39:28.943291Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.2.0[0m
+[2m2026-04-05T08:39:28.943381Z[0m [[33m[1mwarning  [0m] [1mqdrant_not_configured         [0m [36mhint[0m=[35mSet QDRANT_URL and QDRANT_API_KEY env vars to enable vector storage[0m
+[2m2026-04-05T08:39:29.070301Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36mqdrant[0m=[35mnot_configured[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'config.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:39:32.277963Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3712[0m]
+[32mINFO[0m:     Started server process [[36m3720[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:39:33.048197Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.2.0[0m
+[2m2026-04-05T08:39:33.048307Z[0m [[33m[1mwarning  [0m] [1mqdrant_not_configured         [0m [36mhint[0m=[35mSet QDRANT_URL and QDRANT_API_KEY env vars to enable vector storage[0m
+[2m2026-04-05T08:39:33.194455Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36mqdrant[0m=[35mnot_configured[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'services/vector_db.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:39:59.462573Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3720[0m]
+[32mINFO[0m:     Started server process [[36m3753[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:40:00.140768Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.2.0[0m
+[2m2026-04-05T08:40:00.140837Z[0m [[33m[1mwarning  [0m] [1mqdrant_not_configured         [0m [36mhint[0m=[35mSet QDRANT_URL and QDRANT_API_KEY env vars to enable vector storage[0m
+[2m2026-04-05T08:40:00.265984Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36mqdrant[0m=[35mnot_configured[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'models/schemas.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:40:07.187863Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3753[0m]
+[32mINFO[0m:     Started server process [[36m3760[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:40:07.871035Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.2.0[0m
+[2m2026-04-05T08:40:07.871098Z[0m [[33m[1mwarning  [0m] [1mqdrant_not_configured         [0m [36mhint[0m=[35mSet QDRANT_URL and QDRANT_API_KEY env vars to enable vector storage[0m
+[2m2026-04-05T08:40:08.002566Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36mqdrant[0m=[35mnot_configured[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'services/ingestion.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:40:38.282488Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3760[0m]
+[32mINFO[0m:     Started server process [[36m3768[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:40:38.947625Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.2.0[0m
+[2m2026-04-05T08:40:38.947694Z[0m [[33m[1mwarning  [0m] [1mqdrant_not_configured         [0m [36mhint[0m=[35mSet QDRANT_URL and QDRANT_API_KEY env vars to enable vector storage[0m
+[2m2026-04-05T08:40:39.073189Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36mqdrant[0m=[35mnot_configured[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'main.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:40:46.994945Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3768[0m]
+[32mINFO[0m:     Started server process [[36m3775[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:40:47.667217Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:40:48.478266Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:40:48.478462Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:40:48.481483Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[31mERROR[0m:    Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/starlette/routing.py", line 677, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/starlette/routing.py", line 566, in __aenter__
+    await self._router.startup()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/starlette/routing.py", line 654, in startup
+    await handler()
+  File "/home/runner/workspace/artifacts/codemind-rag/backend/main.py", line 71, in startup
+    health_router.set_embedding_generator(embedding_generator)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'routers.health' has no attribute 'set_embedding_generator'
+
+[31mERROR[0m:    Application startup failed. Exiting.
+[33mWARNING[0m:  WatchFiles detected changes in 'routers/health.py'. Reloading...
+[32mINFO[0m:     Started server process [[36m3787[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:40:52.414964Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:40:53.222842Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:40:53.223007Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:40:53.223552Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:40:53.328540Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  WatchFiles detected changes in 'tests/test_embeddings.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:41:12.782899Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3787[0m]
+[32mINFO[0m:     Started server process [[36m3832[0m]
+[32mINFO[0m:     Waiting for application startup.
+[2m2026-04-05T08:41:13.604985Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_starting     [0m [36mversion[0m=[35m0.3.0[0m
+[2m2026-04-05T08:41:14.380539Z[0m [[32m[1minfo     [0m] [1mqdrant_in_memory              [0m [36mnote[0m=[35mSet QDRANT_URL + QDRANT_API_KEY to enable Cloud persistence[0m
+[2m2026-04-05T08:41:14.380710Z[0m [[32m[1minfo     [0m] [1mqdrant_collection_created     [0m [36mdimension[0m=[35m384[0m [36mmode[0m=[35min-memory[0m [36mname[0m=[35mcodemind-codebase[0m
+[2m2026-04-05T08:41:14.381218Z[0m [[32m[1minfo     [0m] [1membedding_mode                [0m [36mmode[0m=[35mlocal_mock[0m [36mnote[0m=[35mSet HUGGINGFACE_API_KEY to enable real embeddings[0m
+[2m2026-04-05T08:41:14.484506Z[0m [[32m[1minfo     [0m] [1mstartup_complete              [0m [36membeddings[0m=[35mlocal_mock[0m [36mqdrant[0m=[35min-memory[0m
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[2m2026-04-05T08:41:40.656957Z[0m [[32m[1minfo     [0m] [1mcodemind_rag_api_shutting_down[0m
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m3832[0m]
+[32mINFO[0m:     Stopping reloader process [[36m[1m849[0m]

@@ -1,0 +1,29 @@
+[32mINFO[0m:     Will watch for changes in these directories: ['/home/runner/workspace/artifacts/codemind-rag/backend']
+[32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     Started reloader process [[36m[1m2789[0m] using [36m[1mWatchFiles[0m
+[32mINFO[0m:     Started server process [[36m2802[0m]
+[32mINFO[0m:     Waiting for application startup.
+[31mERROR[0m:    Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/starlette/routing.py", line 677, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/starlette/routing.py", line 566, in __aenter__
+    await self._router.startup()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/starlette/routing.py", line 654, in startup
+    await handler()
+  File "/home/runner/workspace/artifacts/codemind-rag/backend/main.py", line 40, in startup
+    logger.info("codemind_rag_api_starting", version="0.1.0")
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/structlog/_native.py", line 134, in meth
+    return self._proxy_to_logger(name, event, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/structlog/_base.py", line 216, in _proxy_to_logger
+    args, kw = self._process_event(method_name, event, event_kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/structlog/_base.py", line 167, in _process_event
+    event_dict = proc(self._logger, method_name, event_dict)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/structlog/stdlib.py", line 797, in add_logger_name
+    event_dict["logger"] = logger.name
+                           ^^^^^^^^^^^
+AttributeError: 'PrintLogger' object has no attribute 'name'
+
+[31mERROR[0m:    Application startup failed. Exiting.
